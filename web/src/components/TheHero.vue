@@ -19,9 +19,9 @@
   <button class="evp-mobile-nav-menu-toggle block md:hidden absolute top-0 right-0 w-20 aspect-square h-[10vh] md:h-[5vh] z-50" :class="{ 'evp-mobile-nav-menu-toggle-open': ishideMenu,'evp-mobile-nav-menu-toggle-close': isShowMenu }" @click="toggleMenu"><span></span></button>
   <nav class="block flex fixed top-0 right-0 justify-start md:justify-end h-screen md:h-[5vh] md:w-1/4 z-40 md:translate-x-0 w-full ease-in-out duration-300" :class="{ 'translate-x-full':ishideMenu, 'translate-x-0': isShowMenu }">
    <ul class="absolute top-0 -right-1 z-40 md:z-0 flex flex-col h-full md:flex-row justify-center items-center py-2 px-3 bg-red-600 text-1xl font-bold">
-       <li class="my-5 md:my-0 py-2 px-6 tracking-widest">HOME</li>
-       <li class="my-5 md:my-0 py-2 px-6 tracking-widest">PROJECTS</li>
-       <li class="my-5 md:my-0 py-2 px-6 tracking-widest">GITHUB</li>
+       <li class="my-5 md:my-0 py-2 px-14 md:px-6 tracking-widest">HOME</li>
+       <li class="my-5 md:my-0 py-2 px-14 md:px-6 tracking-widest">PROJECTS</li>
+       <li class="my-5 md:my-0 py-2 px-14 md:px-6 tracking-widest">GITHUB</li>
      </ul>
      </nav> 
    
