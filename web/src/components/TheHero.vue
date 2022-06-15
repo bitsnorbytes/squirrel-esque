@@ -3,7 +3,7 @@
 <div class="flex flex-wrap items-center justify-center w-full h-[40vh]"></div>
  <div class="flex flex-wrap content-center w-full h-[50vh] bg-red-600">
      <ul class="flex p-2 relative items-center text-6xl w-full h-[5rem] font-bold">
-       <li class="p-2 flex items-center justify-end tracking-widest text-right h-full w-10/12 md:w-1/2">DEVOPS</li>
+       <li class="shadow-effect p-2 flex items-center justify-end tracking-widest text-right h-full w-10/12 md:w-1/2">DEVOPS</li>
        <li class="h-full w-2/12 flex items-center justify-start">
          <router-link class="h-full w-full" to="/art"><svg xmlns="http://www.w3.org/2000/svg" width="83" height="100%" viewBox="0 0 83 97">
   <g id="Polygon_1" data-name="Polygon 1" transform="translate(83) rotate(90)" fill="#850081">
@@ -14,7 +14,7 @@
 </li>
      </ul>
      <ul class="flex p-2 relative items-center text-6xl w-full h-[5rem] font-bold">
-       <li class="p-2 flex items-center justify-end tracking-widest text-right h-full w-10/12 md:w-1/2">ART</li>
+       <li class="shadow-effect p-2 flex items-center justify-end tracking-widest text-right h-full w-10/12 md:w-1/2">ART</li>
        <li class="h-full w-2/12 flex items-center justify-start"><router-link class="h-full w-full" to="/art"><svg xmlns="http://www.w3.org/2000/svg" width="83" height="100%" viewBox="0 0 83 97">
   <g id="Polygon_2" data-name="Polygon 2" transform="translate(0 97) rotate(-90)" fill="#850081">
     <path d="M 88.28727722167969 78 L 8.712726593017578 78 L 48.5 9.910438537597656 L 88.28727722167969 78 Z" stroke="none"/>
@@ -27,3 +27,32 @@
 </div>
   </div>
 </template>
+<style scoped>
+.shadow-effect {
+   text-shadow: -6px 6px #c2c2c2,
+   -5.75px 5.75px #c2c2c2,
+   -5.5px 5.5px #c2c2c2,
+   -5.25px 5.25px #c2c2c2,
+   -5px 5px #c2c2c2,
+   -4.75px 4.75px #c2c2c2,
+   -4.50px 4.50px #c2c2c2,
+   -4.25px 4.25px #c2c2c2,
+   -4px 4px #c2c2c2,
+   -3.75px 3.75px #c2c2c2,
+   -3.5px 3.5px #c2c2c2,
+   -3.25px 3.25px #c2c2c2,
+   -3px 3px #c2c2c2,
+   -2.75px 2.75px #c2c2c2,
+   -2.5px 2.5px #c2c2c2,
+   -2.25px 2.25px #c2c2c2,
+   -2px 2px #c2c2c2,
+   -1.75px 1.75px #c2c2c2,
+   -1.5px 1.5px #c2c2c2,
+   -1.25px 1.25px #c2c2c2,
+   -1px 1px #c2c2c2,
+   -.75px .75px #c2c2c2,
+    -.5px .5px #c2c2c2,
+     -.25px .25px #c2c2c2,
+     -0px .0px #c2c2c2;
+}
+</style>
