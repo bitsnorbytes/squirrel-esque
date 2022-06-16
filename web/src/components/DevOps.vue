@@ -1,7 +1,17 @@
 <template>
 <div class="relative h-[90vh] w-screen bg-slate-800">
 <div class="flex flex-wrap items-center justify-center w-full h-full">
-   <p class="p-5 bg-red-600 text-3xl font-bold tracking-widest">XYZ - CODE 45</p> 
+  <ul class="text-orange-50 w-5/6 md:w-1/2 flex flex-wrap  justify-start"> 
+  <li class="text-left w-full bg-orange-800 text-xl m-2 p-1 md:p-3 font-semibold tracking-widest">AZURE</li>
+  <li class="text-left w-6/12 bg-orange-800 text-xl m-2 p-1 md:p-3 font-semibold tracking-widest">AWS</li>
+  <li class="text-left w-3/4 bg-orange-800 text-xl m-2 p-1 md:p-3 font-semibold tracking-widest">ANSIBLE</li>
+  <li class="text-left w-3/4 bg-orange-800 text-xl m-2 p-1 md:p-3 font-semibold tracking-widest">TERRAFORM</li>
+  <li class="text-left w-full bg-orange-800 text-xl m-2 p-1 md:p-3 font-semibold tracking-widest">AZURE DEVOPS</li>
+  <li class="text-left w-3/4 bg-orange-800 text-xl m-2 p-1 md:p-3 font-semibold tracking-widest">JENKINS</li>
+  <li class="text-left w-full bg-orange-800 text-xl m-2 p-1 md:p-3 font-semibold tracking-widest">POWERSHELL</li>
+  <li class="text-left w-6/12 bg-orange-800 text-xl m-2 p-1 md:p-3 font-semibold tracking-widest">PYTHON</li>
+   <li class="text-left w-full bg-orange-800 text-xl m-2 p-1 md:p-3 font-semibold tracking-widest">ARM DEPLOYMENT</li>
+</ul>
 </div>
  <!-- <div class="flex flex-wrap content-center w-full h-[50vh] bg-red-600">
      <ul class="flex p-2 relative items-center text-6xl w-full h-[5rem] font-bold">
