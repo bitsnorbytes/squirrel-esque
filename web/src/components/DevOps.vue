@@ -1,7 +1,7 @@
 <template>
 <div class="relative h-[90vh] w-screen bg-slate-800">
 <div class="flex flex-wrap items-center justify-center w-full h-full">
-  <ul class="text-orange-50 w-5/6 md:w-1/2 flex flex-wrap  justify-start"> 
+  <ul class="text-orange-50 w-5/6 md:w-1/2 grid-cols-4"> 
   <li class="flex items-center justify-start w-full bg-orange-800 text-xl m-2 p-1 md:p-3 font-semibold tracking-widest">
     
     <svg class="mx-2" height="1.25rem" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
