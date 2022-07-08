@@ -1,7 +1,7 @@
 <template>
 <div class="relative h-[90vh] w-screen bg-slate-800">
 <div class="flex flex-wrap items-center justify-center w-full h-[40vh]">
-  <p class="text-indigo-50 tracking-wide p-5 m-2 md:text-4xl ">I'm <span class="font-bold">Punyasloka</span>, an Infrastructure & Cloud Engineer from India (New Delhi / Mumbai).<br/> I design and develop <span class="font-bold">Build, Release and Cloud Infrastructure Provisioning Solutions</span> <br/>for my clients at Publicis Sapient.</p>
+  <p class="text-indigo-50 tracking-wide p-5 m-2 md:text-4xl ">I'm <span class="font-bold">Punyasloka</span>, an Infrastructure & Cloud Engineer from India (New Delhi / Mumbai).<br/> I design and develop <span class="font-bold">Build, Release and Cloud Infrastructure Provisioning Solutions</span> <br/>for my clients at <a target="_blank" href="https://www.publicissapient.com/">Publicis Sapient</a>.</p>
 </div>
  <div class="flex flex-wrap content-center w-full h-[50vh] bg-red-600">
      <ul class="flex p-2 relative items-center text-6xl w-full h-[5rem] font-bold">
